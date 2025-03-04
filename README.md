@@ -64,7 +64,7 @@ Ensure that the following dependencies are installed:
 1. Clone the repository:
 ```
 git clone https://github.com/abhishekbande/URLShortenerService.git
-cd UrlShortener
+cd URLShortenerService
 ```
 
 2. Restore NuGet dependencies:
@@ -79,10 +79,11 @@ dotnet build
 
 4. Run the application:
 ```
+cd UrlShortner.Api
 dotnet run
 ```
 
-5. The API will be available at http://localhost:5000. You can use tools like Postman or curl to interact with the API.
+5. The API will be available at http://localhost:5014. You can use tools like Postman or curl to interact with the API.
 
 - POST /api/shorten to shorten a URL.
 - GET /api/{short_id} to resolve a shortened URL.
